@@ -17,20 +17,3 @@ public class TrackMeet {
         this.name = name;
     }
 }
-@Entity
-@Getter
-@Setter
-public class TrackMeet {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-
-    private String name;
-
-    public TrackMeet() {}
-
-    public TrackMeet(String name) {
-        this.name = name;
-    }
-}
