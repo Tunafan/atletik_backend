@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>kea3</groupId>
-	<artifactId>eksamenstemplate1_backend</artifactId>
+	<artifactId>atletik_backend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>eksamenstemplate1_backend</name>
-	<description>eksamenstemplate1_backend</description>
+	<name>atletik_backend</name>
+	<description>atletik_backend</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
