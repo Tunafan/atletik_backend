@@ -23,23 +23,3 @@ public class ResultType {
     @ManyToOne
     private Athlete athlete;
 }
-
-
-@Entity
-@Getter
-@Setter
-public class ResultType {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-
-    @ManyToOne
-    TrackMeet trackMeet;
-    private LocalDateTime date;
-
-    private ResultTypeEnum resultType;
-
-    @ManyToOne
-    private Athlete athlete;
-}

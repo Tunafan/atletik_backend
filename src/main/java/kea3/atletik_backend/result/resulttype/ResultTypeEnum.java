@@ -7,8 +7,3 @@ public enum ResultTypeEnum {
     POINTS
 
 }
-public enum ResultTypeEnum {
-    TIME,
-    DISTANCE,
-    POINTS
-}

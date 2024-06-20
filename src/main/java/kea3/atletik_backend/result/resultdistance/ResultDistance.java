@@ -11,12 +11,3 @@ import lombok.Setter;
 public class ResultDistance extends ResultType {
     private double distance;
 }
-
-
-@Entity
-@Getter
-@Setter
-public class ResultDistance extends ResultType {
-
-    private double distance;
-}

@@ -12,11 +12,3 @@ import lombok.Setter;
 public class ResultTime extends ResultType {
         private double time;
 }
-
-@Entity
-@Getter
-@Setter
-public class ResultTime extends ResultType {
-
-        private double time;
-}

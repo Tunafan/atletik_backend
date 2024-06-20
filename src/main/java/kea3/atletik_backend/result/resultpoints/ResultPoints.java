@@ -11,11 +11,3 @@ import lombok.Setter;
 public class ResultPoints extends ResultType {
         private int points;
 }
-
-@Entity
-@Getter
-@Setter
-public class ResultPoints extends ResultType {
-
-        private int points;
-}
