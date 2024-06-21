@@ -18,9 +18,26 @@ public class Club {
     private String name;
     private String city;
 
+    public Club() {
+    }
+    public Club(Long id) {
+        this.id = id;
+    }
     public Club(String name) {
         this.name = name;
     }
-    public Club() {
+
+    public Club(String name, String city) {
+        this.name = name;
+        this.city = city;
+    }
+    public Club(Long id, String name, String city) {
+        this.id = id;
+        this.name = name;
+        this.city = city;
+    }
+public Club(Long id, String name) {
+        this.id = id;
+        this.name = name;
     }
 }

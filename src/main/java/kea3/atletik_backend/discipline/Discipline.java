@@ -16,7 +16,7 @@ public class Discipline {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
-    private String resultType; // This should probably be an enum
+    private String resultType;
 
     public Discipline(String name, String resultType) {
         this.name = name;
